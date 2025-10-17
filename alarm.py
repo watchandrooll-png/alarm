@@ -16,6 +16,7 @@ while True:
         print(hour)
         print(timetoalert)
         if timetoalert <= hour:
-            playsound("y\preview.mp3")
+            playsound("preview.mp3")
             break
         time.sleep(1)
+
